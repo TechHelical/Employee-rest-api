@@ -17,6 +17,7 @@ This project is a RESTful API for managing employee data using Java and Spring B
 - Hibernate
 - MySQL (or H2 for testing)
 - Maven
+- Postman (for API testing)
 
 ## 📁 Project Structure
 Employee REST API/
@@ -51,3 +52,10 @@ Employee REST API/
    mvn spring-boot:run
 4. The API will be available at:
    http://localhost:8080/
+
+# Testing with Postman
+- Open Postman Web.
+- Create a new request.
+- Set the method to GET, POST, PUT, or DELETE.
+- Use the appropriate endpoint (e.g., http://localhost:8080/employees).
+   
